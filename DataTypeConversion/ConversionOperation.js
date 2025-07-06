@@ -22,5 +22,28 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 let stringVariable = 3;
 let stringConversion = String(stringVariable)
+
 console.log(typeof stringConversion)
+
+/***************************************OPERATIONS************************************************ */
+
+let str1 = "Hey,";
+let str2 = "JavaScript";
+// console.log(str1+str2);
+
+// console.log(0+1)
+// console.log(0-1)
+// console.log(0*1)
+// console.log(0/1)
+// console.log(0%1)
+
+// console.log(2 + "2");
+// console.log("2" + "2");
+// console.log("2" + 2 + 1);
+// console.log(2 + 2 + "1");
+
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter)
+
 
