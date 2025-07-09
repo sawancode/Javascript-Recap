@@ -1,4 +1,4 @@
-🔍 JavaScript Comparison Operators Explained (with Surprising Results!)
+// 🔍 JavaScript Comparison Operators Explained (with Surprising Results!)
 
 // Basic Comparison Operators
 console.log(1 > 0);      // true
@@ -24,10 +24,10 @@ console.log(undefined < 0);   // false — any numeric comparison with undefined
 
 // Strict Equality (===) - No Type Coercion
 console.log("2" === 2);  // false — different data types (string vs number)
-📌 Key Takeaways:
-== performs type coercion, === does not.
+// 📌 Key Takeaways:
+// == performs type coercion, === does not.
 
-null and undefined behave strangely in comparisons — be cautious!
+// null and undefined behave strangely in comparisons — be cautious!
 
-Always use === unless you really want type coercion.
+// Always use === unless you really want type coercion.
 
